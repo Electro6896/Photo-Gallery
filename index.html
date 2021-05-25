@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Photo Gallery</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <ul class="menu">
+        <li class="links"> <a href="#about">Home</a></li>
+        <li class="links"> <a href="#Grid">Grid gallery</a></li>
+        <li class="links"> <a href="#Mywork">Sliding gallery</a></li>
+    </ul>
+
+
+    <section id="about" style="background-image: url('national-flowers.jpg');">
+        <br>
+        <br>
+        <h1 id="head">Welcome To Photo Gallery</h1>
+    </section>
+
+    <section id="Grid">
+        <h1>Grid gallery</h1>
+        <br>
+        <div class="row">
+            <img src="images%20(1).jpg">
+            <img src="images%20(2).jpg">
+            <img src="images%20(3).jpg">
+            <img src="images%20(4).jpg">
+        </div>
+        <div class="row">
+            <img src="images.jpg">
+            <img src="images%20(5).jpg">
+            <img src="images%20(6).jpg">
+            <img src="images%20(7).jpg">
+        </div>
+
+    </section>
+
+    <section id="Mywork">
+        <h4>Sliding Gallary</h4>
+        <div id="myCarousel" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <center>
+                        
+                            <img src="Pink%20tulip.jpg" class="img-responsive" alt="pink" style="width:80%;">
+                        
+                        <div class="carousel-caption">
+                            <h3>Pink tulip</h3>
+                        </div>
+                    </center>
+                </div>
+
+                <div class="item">
+                    <center>
+                        
+                            <img src="Red%20rose.jpg" class="img-responsive" alt="red" style="width:80%;">
+                        
+                        <div class="carousel-caption">
+                            <h3>Red Rose</h3>
+                        </div>
+                    </center>
+                </div>
+            </div>
+
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a>
+
+            <a class="right carousel-control" href="#myCarousel" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
+        </div>
+
+
+    </div>
+
+       
+    </section>
+
+
+
+</body>
+
+</html>
